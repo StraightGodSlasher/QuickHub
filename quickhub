@@ -1,0 +1,148 @@
+--made by 7F#2077 (ALL SCRIPTS IN THIS HUB IS NOT MINE, CREDITS GO TO THE OWNERS)
+--Join My Discord ("https://discord.gg/7Vzf8Ukc4Z")
+--all scripts work in "https://www.roblox.com/games/7051891467/7F-BackYard?refPageId=012e331e-9904-4478-ac80-555f696ed162" and "https://www.roblox.com/games/417267366/Dollhouse-Roleplay?refPageId=10c1301a-95d7-40a3-96ed-3a98d110bada"
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local fanta = Instance.new("TextButton")
+local pineapple = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+local Boomboxhubs = Instance.new("TextLabel")
+local randomhub = Instance.new("TextButton")
+local EpicScripts = Instance.new("TextLabel")
+local cmdx = Instance.new("TextButton")
+local AntiLogger = Instance.new("TextButton")
+local _7F2077 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 5
+main.Position = UDim2.new(0.032097429, 0, 0.138519928, 0)
+main.Size = UDim2.new(0, 234, 0, 328)
+main.Active = true
+main.Draggable = true
+
+fanta.Name = "fanta"
+fanta.Parent = main
+fanta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fanta.Position = UDim2.new(0.517475367, 0, 0.258535624, 0)
+fanta.Size = UDim2.new(0, 102, 0, 42)
+fanta.Font = Enum.Font.SourceSansBold
+fanta.Text = "Fanta Hub"
+fanta.TextColor3 = Color3.fromRGB(0, 0, 0)
+fanta.TextScaled = true
+fanta.TextSize = 14.000
+fanta.TextWrapped = true
+fanta.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kyakuryc/fanta-hub/main/fanta_hub_raw.txt",true))()
+end)
+
+pineapple.Name = "pineapple"
+pineapple.Parent = main
+pineapple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pineapple.Position = UDim2.new(0.0269401483, 0, 0.260433137, 0)
+pineapple.Size = UDim2.new(0, 102, 0, 42)
+pineapple.Font = Enum.Font.SourceSansBold
+pineapple.Text = "PineApple Hub"
+pineapple.TextColor3 = Color3.fromRGB(0, 0, 0)
+pineapple.TextScaled = true
+pineapple.TextSize = 14.000
+pineapple.TextWrapped = true
+pineapple.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StraightGodSlasher/pineapple/main/7F%232077"))()
+end)
+
+title.Name = "title "
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(172, 172, 172)
+title.Position = UDim2.new(-0.00176429376, 0, -0.0028463006, 0)
+title.Size = UDim2.new(0, 234, 0, 50)
+title.Font = Enum.Font.ArialBold
+title.Text = "Quick Hub"
+title.TextColor3 = Color3.fromRGB(128, 255, 251)
+title.TextSize = 33.000
+title.TextWrapped = true
+
+Boomboxhubs.Name = "Boombox hubs"
+Boomboxhubs.Parent = main
+Boomboxhubs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Boomboxhubs.BorderSizePixel = 5
+Boomboxhubs.Position = UDim2.new(0.159067154, 0, 0.187759548, 0)
+Boomboxhubs.Size = UDim2.new(0, 156, 0, 13)
+Boomboxhubs.Font = Enum.Font.SourceSansBold
+Boomboxhubs.Text = "FREE Boombox hubs"
+Boomboxhubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boomboxhubs.TextSize = 17.000
+Boomboxhubs.TextTransparency = 0.200
+Boomboxhubs.TextWrapped = true
+
+randomhub.Name = "random hub"
+randomhub.Parent = main
+randomhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+randomhub.Position = UDim2.new(0.0299145319, 0, 0.411774218, 0)
+randomhub.Size = UDim2.new(0, 217, 0, 33)
+randomhub.Font = Enum.Font.SourceSansBold
+randomhub.Text = "Random Boombox Hub"
+randomhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+randomhub.TextScaled = true
+randomhub.TextSize = 14.000
+randomhub.TextWrapped = true
+randomhub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nickk431/BoomboxHub/main/MainScript.lua"), "BoomboxHub") "nickk#1337"
+end)
+
+EpicScripts.Name = "Epic Scripts"
+EpicScripts.Parent = main
+EpicScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EpicScripts.BorderSizePixel = 5
+EpicScripts.Position = UDim2.new(0.166666672, 0, 0.544531167, 0)
+EpicScripts.Size = UDim2.new(0, 156, 0, 20)
+EpicScripts.Font = Enum.Font.SourceSansBold
+EpicScripts.Text = "Epic Scripts"
+EpicScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+EpicScripts.TextSize = 27.000
+EpicScripts.TextWrapped = true
+
+cmdx.Name = "cmdx"
+cmdx.Parent = main
+cmdx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdx.Position = UDim2.new(0.0683760718, 0, 0.636763453, 0)
+cmdx.Size = UDim2.new(0, 200, 0, 50)
+cmdx.Font = Enum.Font.SourceSansBold
+cmdx.Text = "CMD-X"
+cmdx.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmdx.TextScaled = true
+cmdx.TextSize = 14.000
+cmdx.TextWrapped = true
+cmdx.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+end)
+
+AntiLogger.Name = "Anti Logger"
+AntiLogger.Parent = main
+AntiLogger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiLogger.Position = UDim2.new(0.0726495758, 0, 0.816911221, 0)
+AntiLogger.Size = UDim2.new(0, 199, 0, 50)
+AntiLogger.Font = Enum.Font.SourceSansBold
+AntiLogger.Text = "Anti Logger"
+AntiLogger.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiLogger.TextScaled = true
+AntiLogger.TextSize = 29.000
+AntiLogger.TextWrapped = true
+AntiLogger.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/antisteal/antisteal-main/master/Anti-Steal.lua",true))()
+end)
+
+_7F2077.Name = "7F#2077"
+_7F2077.Parent = main
+_7F2077.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_7F2077.Position = UDim2.new(0.346153796, 0, -0.0579268076, 0)
+_7F2077.Size = UDim2.new(0, 71, 0, 18)
+_7F2077.Font = Enum.Font.SourceSansBold
+_7F2077.Text = "7F#2077"
+_7F2077.TextColor3 = Color3.fromRGB(0, 0, 0)
+_7F2077.TextScaled = true
+_7F2077.TextSize = 14.000
+_7F2077.TextWrapped = true
