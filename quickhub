@@ -1,6 +1,6 @@
 --made by 7F#2077 (ALL SCRIPTS IN THIS HUB IS NOT MINE, CREDITS GO TO THE OWNERS)
 --Join My Discord ("https://discord.gg/7Vzf8Ukc4Z")
---all scripts work in "https://www.roblox.com/games/7051891467/7F-BackYard?refPageId=012e331e-9904-4478-ac80-555f696ed162" and "https://www.roblox.com/games/417267366/Dollhouse-Roleplay?refPageId=10c1301a-95d7-40a3-96ed-3a98d110bada"
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local fanta = Instance.new("TextButton")
@@ -91,6 +91,7 @@ randomhub.TextSize = 14.000
 randomhub.TextWrapped = true
 randomhub.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://sanityvanity.000webhostapp.com/SanityHub.lua"))()
+end)
 
 EpicScripts.Name = "Epic Scripts"
 EpicScripts.Parent = main
